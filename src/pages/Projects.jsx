@@ -89,7 +89,7 @@ function Projects() {
           ></motion.div>
 
           <Project
-            title="Arsenal"
+            title="arsenal"
             subtitle="Arsenal Football Club Clone"
             link="https://github.com/oluwolefsamson/Arsenal-FC"
           />
