@@ -41,9 +41,9 @@ function Navbar({ isTopOfPage, selectedPage, setSelectedPage }) {
 
   return (
     <nav
-      className={`${navbarBackground} z-40 w-full fixed top-0 py-5 duration-500`}
+      className={`${navbarBackground} z-40 w-full fixed top-0 py-4 duration-500`}
     >
-      <div className="flex items-center justify-between mx-auto m pl-8 pr-12">
+      <div className="flex items-center justify-between mx-auto m pl-8 mr-3 pr-12">
         <img
           src={Logo}
           alt="img"
@@ -80,7 +80,7 @@ function Navbar({ isTopOfPage, selectedPage, setSelectedPage }) {
           // Mobile Hamburger Icon
           <button
             type="button"
-            className="rounded-full bg-dark-blue w-11 p-2"
+            className="rounded-full bg-dark-blue w-11 p-2 "
             onClick={() => setIsMenuToggled(!isMenuToggled)}
           >
             <img alt="menu-icon" src={MenuIcon} />
@@ -89,9 +89,9 @@ function Navbar({ isTopOfPage, selectedPage, setSelectedPage }) {
 
         {/* Mobile Menu Popup */}
         {!isDesktop && isMenuToggled && (
-          <div className="fixed right-0 bottom-0 h-full bg-dark-blue w-[300px] animate-slide-left">
+          <div className="fixed right-0 bottom-0 h-full bg-dark-blue w-[250px] animate-slide-left">
             {/* Close Icon */}
-            <div className="flex justify-end p-12">
+            <div className="flex justify-end p-12 mr-6">
               <button
                 type="button"
                 className="text-2xl"
