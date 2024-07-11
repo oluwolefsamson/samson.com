@@ -102,8 +102,8 @@ function Projects() {
           {/* Row 2 */}
           <Project
             title="Project 3"
-            subtitle="Studio"
-            link="https://github.com/oluwolefsamson/Foto"
+            subtitle="Medical Appointment & Booking"
+            link="https://github.com/oluwolefsamson/Mern-Doctor-Appointment-App-Frontend"
           />
           <motion.div
             variants={projectVariant}
@@ -144,9 +144,9 @@ function Projects() {
           ></motion.div>
 
           <Project
-            title="Project 6"
-            subtitle=" My Portfolio"
-            link="https://github.com/oluwolefsamson/MyPortfolio"
+            title="Project 7"
+            subtitle="School Management System"
+            link="https://github.com/oluwolefsamson/SchoolManagementSystem"
           />
         </motion.div>
       </div>
