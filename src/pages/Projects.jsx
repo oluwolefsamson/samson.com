@@ -144,7 +144,7 @@ function Projects() {
           ></motion.div>
 
           <Project
-            title="Project 7"
+            title="Project 8"
             subtitle="School Management System"
             link="https://github.com/oluwolefsamson/SchoolManagementSystem"
           />
