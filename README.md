@@ -29,3 +29,4 @@ to read, eslint (Airbnb and Prettier configurations) to find problems in the cod
 ## Author
 - Oluwole Samson O: https://github.com/oluwolefsamson
 # samson.com
+# samson.com
