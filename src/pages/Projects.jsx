@@ -141,7 +141,7 @@ function Projects() {
           <Project
             title="Project 6"
             subtitle=" My Portfolio"
-            link="https://github.com/oluwolefsamson/MyPortfolio"
+            link="https://github.com/oluwolefsamson/samson.com"
           />
 
           <motion.div

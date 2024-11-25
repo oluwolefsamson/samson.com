@@ -23,20 +23,20 @@ function Home() {
   return (
     <section
       id="home"
-      className="mx-auto px-8 md:flex md:justify-between md:items-center md:h-full gap-10 pb-8 md:bg-gradient-reverse-space"
+      className="mx-auto px-8 md:flex md:justify-between md:items-center md:h-full gap-10 pb-8 md:bg-gradient-reverse-space pt-6"
     >
       {/* Image Section */}
-      <div className="md:order-2 flex justify-center basis-3/5 z-10 mt-24 mb-20 md:mt-32">
+      <div className="md:order-2 flex justify-center basis-3/5 z-10 mt-24 mb-20 md:mt-32 ">
         {isDesktop ? (
           <img
             alt="profile"
-            className="grayscale hover:grayscale-0 duration-1000 z-10 w-full max-w-[400px] cursor-pointer rounded-t-full"
+            className="grayscale hover:grayscale-0 duration-1000 z-10 w-full max-w-[400px] cursor-pointer rounded-t-full border-4 border-blue-500 "
             src={ProfileImg}
           />
         ) : (
           <img
             alt="profile"
-            className="z-10 w-full max-w-[400px] md:max-w-[600px] rounded-t-full"
+            className="z-10 w-full max-w-[400px] md:max-w-[600px] rounded-t-full border-4 border-blue-500 "
             src={ProfileImg}
           />
         )}
