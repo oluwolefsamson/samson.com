@@ -85,18 +85,19 @@ function Projects() {
           {/* Row 5 */}
 
           <Project
-            title="Project 9"
-            subtitle="E-Commerce"
-            link="https://github.com/oluwolefsamson/E-Commerce-Website"
+            title="Project 8"
+            subtitle="AcademEase"
+            link="https://academease-neon.vercel.app"
           />
+
           <motion.div
             variants={projectVariant}
             className="flex justify-center text-center items-center p-10 bg-red max-w-[600px] min-h-[200px] text-2xl font-playfair font-semibold"
           ></motion.div>
           <Project
-            title="Project 8"
-            subtitle="AcademEase"
-            link="https://academease-neon.vercel.app"
+            title="Project 0"
+            subtitle="Arsenal FC"
+            link="https://github.com/oluwolefsamson/Arsenal-FC"
           />
 
           {/* Row 1 */}
@@ -106,7 +107,7 @@ function Projects() {
           ></motion.div>
 
           <Project
-            title="project 0"
+            title="project 11"
             subtitle="Inventory Management System"
             link="https://github.com/oluwolefsamson/Inventory-Management-System"
           />
@@ -165,6 +166,24 @@ function Projects() {
             title="Project 10"
             subtitle="Banking Saas Landing Page"
             link="https://github.com/oluwolefsamson/Banking-website-Fullstack"
+          />
+
+          {/* Row 6 */}
+
+          <motion.div
+            variants={projectVariant}
+            className="flex justify-center text-center items-center p-10 bg-red max-w-[600px] min-h-[200px] text-2xl font-playfair font-semibold"
+          ></motion.div>
+
+          <Project
+            title="Project 0"
+            subtitle="Arsenal FC"
+            link="https://github.com/oluwolefsamson/Arsenal-FC"
+          />
+          <Project
+            title="Project 9"
+            subtitle="E-Commerce"
+            link="https://github.com/oluwolefsamson/E-Commerce-Website"
           />
         </motion.div>
       </div>
