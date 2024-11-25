@@ -23,7 +23,7 @@ function Home() {
   return (
     <section
       id="home"
-      className="mx-auto px-8 md:flex md:justify-between md:items-center md:h-full gap-10 pb-8 md:bg-gradient-reverse-space pt-6"
+      className="mx-auto px-8 md:flex md:justify-between md:items-center md:h-full gap-10 pb-8 md:bg-gradient-reverse-space "
     >
       {/* Image Section */}
       <div className="md:order-2 flex justify-center basis-3/5 z-10 mt-24 mb-20 md:mt-32 ">

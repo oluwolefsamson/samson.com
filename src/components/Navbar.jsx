@@ -90,7 +90,7 @@ function Navbar({ isTopOfPage, selectedPage, setSelectedPage }) {
 
         {/* Mobile Menu Popup */}
         {!isDesktop && isMenuToggled && (
-          <div className="fixed right-0 bottom-0 h-full bg-dark-blue w-[250px] animate-slide-left">
+          <div className="fixed right-0 bottom-0 h-full bg-dark-blue w-[250px] animate-slide-left mt-11">
             {/* Close Icon */}
             <div className="flex justify-end p-12 mr-6">
               <button
