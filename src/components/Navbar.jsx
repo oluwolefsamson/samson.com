@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 
 import useMediaQuery from "../hooks/useMediaQuery";
 import MenuIcon from "../assets/menu-icon.png";
-import Logo from "../assets/logo.jpeg";
+import Logo from "../assets/logo.png";
 
 function Link({ page, selectedPage, setSelectedPage, setIsMenuToggled }) {
   const lowerCasePage = page.toLowerCase();
@@ -47,8 +47,8 @@ function Navbar({ isTopOfPage, selectedPage, setSelectedPage }) {
         <img
           src={Logo}
           alt="img"
-          height={15}
-          width={60}
+          height={40}
+          width={180}
           className="rounded-lg lg:rounded-none "
           style={{ borderRadius: "50%" }}
         />
