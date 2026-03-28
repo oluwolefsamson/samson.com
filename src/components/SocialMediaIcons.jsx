@@ -1,7 +1,4 @@
-// import Linkedin from '../assets/linkedin.png';
-// import Github from '../assets/github.png';
-// import X from '../assets/x.png';
-// import Instagram from '../assets/instagram.png';
+
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -11,7 +8,7 @@ import {
   faInstagram,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
-import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+
 
 function SocialMediaIcons() {
   return (
